@@ -142,3 +142,28 @@ body {
     padding: 2rem 0;
     font-weight: 800;
 }
+
+/* Social Media */
+
+.icons {
+    max-width: 25%;
+}
+
+.disclaimer {
+    color: cyan;
+    font-weight:800;
+}
+
+.contact a {
+    color: red;
+
+}
+
+/* Info */
+.info p {
+    text-align: center;
+}
+
+.info img {
+    padding: 2rem 0;
+}
