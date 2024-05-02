@@ -10,21 +10,24 @@ body {
     background-color: hsl(0, 0%, 21%);
 }
 
+a {
+    text-decoration: none;
+}
 
 /* Nav */
 .top {
     display: flex;
-    width: 98%;
+    /* width: 98%; */
     padding: 5px;
     border-radius: 0.5rem;
-    background: linear-gradient(90deg, rgba(255,0,0,1) 15%, rgba(158,66,255,1) 66%, rgba(0,99,255,1) 100%);;
     margin-top: 25px;
     margin: auto;
+    justify-content:center;
+    max-width: 380px;
+    text-align: center;
 }
 
- .stage {
-    color: black;
- }
+
 
 
 .motto {
@@ -123,6 +126,7 @@ body {
 .book p {
     font-size: 1.2rem;
     margin: 12px 0;
+    text-align: center;
 }
 
 .book img {
@@ -141,6 +145,7 @@ body {
     color: chartreuse;
     padding: 2rem 0;
     font-weight: 800;
+    font-size: 2.5em;
 }
 
 /* Social Media */
