@@ -17,7 +17,6 @@ a {
 /* Nav */
 .top {
     display: flex;
-    /* width: 98%; */
     padding: 5px;
     border-radius: 0.5rem;
     margin-top: 25px;
@@ -66,21 +65,14 @@ a {
     padding: 20px;
     background: linear-gradient(90deg, rgba(255,0,0,1) 15%, rgba(158,66,255,1) 66%, rgba(0,99,255,1) 100%);
     border-radius: 0.5rem;
-    width: 89%;
     margin: 2rem 1px 2rem 1px;
 }
 
 .menu article {
-    /* background-color: darkred; */
-    /* padding: 10px 0; */
     flex-flow: row wrap;
-    /* justify-content: center; */
-    /* margin: 0 auto; */
-    /* border-radius: 8px; */
     text-align: center;
     width: 100%;
-   /* gap: 20px; */
-   margin: 20px 0;
+    margin: 20px 0;
    }
 
 .warning {
@@ -171,4 +163,29 @@ a {
 
 .info img {
     padding: 2rem 0;
+}
+
+/* Tablet styles */
+@media (min-width: 600px) and (max-width: 1023px) {
+    
+    /* Add tablet-specific styles here */
+  }
+  
+  /* Desktop styles */
+  @media (min-width: 1024px) {
+   
+    /* Add desktop-specific styles here */
+  }
+  
+  /* Mobile styles (smaller screens, default styles are already applied) */
+  @media (max-width: 599px) {
+    
+    img {
+        max-width: 599px;
+    }
+
+    .menu {
+         max-width: 89%;
+    }
+    /* Add mobile-specific styles here */
 }
